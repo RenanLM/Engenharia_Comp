@@ -30,4 +30,6 @@ int main(){
 
     printf("Pares: %d e Impares: %d\n", pares, impares);
 
+    return 0;
+
 }
