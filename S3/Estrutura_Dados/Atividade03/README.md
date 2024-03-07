@@ -1,0 +1,3 @@
+# Atividade 03 (Exercício Prático) - 07/03/2024
+
+1. Elabore um programa que pede n coordenadas (x,y) para um usuário e a medida que o usuario entrar com os valores  o programa armazena as coordenadas e calcula a soma das distancias de todas as coordenada. Ao terminar a entrada dos dados o programa deverá mostra cada par de pontos e e distancia entre eles e no final mostrar a distancia total. e antes de finalizar desalocar a memória alocada.

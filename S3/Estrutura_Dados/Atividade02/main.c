@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 struct Coordenadas {
 
@@ -10,13 +11,10 @@ struct Coordenadas {
 typedef struct Coordenadas TCoordenadas;
 
 void distancia(TCoordenadas *p1, TCoordenadas *p2) {
-  float p1x = p1->x;
-  float p1y = p1->y;
-
-  float p2x = p2->x;
-  float p2y = p2->y;
-
-  float distancia = sqrt(pow(p1x - p2x, 2.0)) + pow(p1y - p2y, 2.0);
+  float dx = p2->x - p1->x;
+  float dy = p2->y - p1->y;
+  
+  float distancia = sqrt((dx * dx) + (dy * dy));
   printf("A distancia entre os pontos é: %.2f\n", distancia);
 }
 
